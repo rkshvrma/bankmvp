@@ -12,7 +12,7 @@ export class DropDownDirective{
      get opened(){
         return this.isOpen;    
      }
-     @HostListener('click')
+     @HostListener('mouseenter')
      open(){
          this.isOpen = true;
      }

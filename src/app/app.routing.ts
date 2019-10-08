@@ -5,6 +5,7 @@ import { RetrieveapplicationcompComponent } from './retrieveapplicationcomp/retr
 import { StatuscompComponent } from './statuscomp/statuscomp.component'
 import { EmpLoginComponent } from './emplogincomp/emplogincomp.component'
 import { UserLoginComponent } from './userlogincomp/userlogincomp.component';
+import {LogoutComponent} from './logout/logoutcomp.component';
 
 export const AppRouting = RouterModule.forRoot ([
     {path:'applycredit', component: ApplycreditcompComponent},
@@ -13,4 +14,6 @@ export const AppRouting = RouterModule.forRoot ([
     {path:'status', component: StatuscompComponent},
     {path:'emplogin', component: EmpLoginComponent},
     {path:'userlogin', component: UserLoginComponent},
+    {path:'logout', component: LogoutComponent},
+    
 ])

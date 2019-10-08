@@ -10,6 +10,7 @@ import { AppRouting } from './app.routing';
 import { EmpLoginComponent } from './emplogincomp/emplogincomp.component';
 import { UserLoginComponent } from './userlogincomp/userlogincomp.component';
 import {DropDownDirective} from './shared/dropdown.service';
+import {LogoutComponent} from './logout/logoutcomp.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import {DropDownDirective} from './shared/dropdown.service';
     HeaderComponent,
     EmpLoginComponent,
     DropDownDirective,
-    UserLoginComponent
+    UserLoginComponent,
+    LogoutComponent
   ],
   imports: [
     BrowserModule, AppRouting
